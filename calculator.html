@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IELTS Band Calculator - IELTSBoost</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            IELTS<span>Boost</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#tools">Tools</a>
+            <a href="index.html#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="calculator-section">
+
+            <div class="calculator-heading">
+
+                <p class="small-title">IELTS TOOL</p>
+
+                <h1>IELTS Band Calculator</h1>
+
+                <p>
+                    Enter your four IELTS scores and calculate
+                    your estimated overall band score instantly.
+                </p>
+
+            </div>
+
+
+            <div class="calculator-card">
+
+                <div class="score-input">
+
+                    <label for="listening">
+                        🎧 Listening
+                    </label>
+
+                    <select id="listening">
+                        <option value="">Select score</option>
+                        <option value="9">9.0</option>
+                        <option value="8.5">8.5</option>
+                        <option value="8">8.0</option>
+                        <option value="7.5">7.5</option>
+                        <option value="7">7.0</option>
+                        <option value="6.5">6.5</option>
+                        <option value="6">6.0</option>
+                        <option value="5.5">5.5</option>
+                        <option value="5">5.0</option>
+                        <option value="4.5">4.5</option>
+                        <option value="4">4.0</option>
+                    </select>
+
+                </div>
+
+
+                <div class="score-input">
+
+                    <label for="reading">
+                        📖 Reading
+                    </label>
+
+                    <select id="reading">
+                        <option value="">Select score</option>
+                        <option value="9">9.0</option>
+                        <option value="8.5">8.5</option>
+                        <option value="8">8.0</option>
+                        <option value="7.5">7.5</option>
+                        <option value="7">7.0</option>
+                        <option value="6.5">6.5</option>
+                        <option value="6">6.0</option>
+                        <option value="5.5">5.5</option>
+                        <option value="5">5.0</option>
+                        <option value="4.5">4.5</option>
+                        <option value="4">4.0</option>
+                    </select>
+
+                </div>
+
+
+                <div class="score-input">
+
+                    <label for="writing">
+                        ✍️ Writing
+                    </label>
+
+                    <select id="writing">
+                        <option value="">Select score</option>
+                        <option value="9">9.0</option>
+                        <option value="8.5">8.5</option>
+                        <option value="8">8.0</option>
+                        <option value="7.5">7.5</option>
+                        <option value="7">7.0</option>
+                        <option value="6.5">6.5</option>
+                        <option value="6">6.0</option>
+                        <option value="5.5">5.5</option>
+                        <option value="5">5.0</option>
+                        <option value="4.5">4.5</option>
+                        <option value="4">4.0</option>
+                    </select>
+
+                </div>
+
+
+                <div class="score-input">
+
+                    <label for="speaking">
+                        🗣️ Speaking
+                    </label>
+
+                    <select id="speaking">
+                        <option value="">Select score</option>
+                        <option value="9">9.0</option>
+                        <option value="8.5">8.5</option>
+                        <option value="8">8.0</option>
+                        <option value="7.5">7.5</option>
+                        <option value="7">7.0</option>
+                        <option value="6.5">6.5</option>
+                        <option value="6">6.0</option>
+                        <option value="5.5">5.5</option>
+                        <option value="5">5.0</option>
+                        <option value="4.5">4.5</option>
+                        <option value="4">4.0</option>
+                    </select>
+
+                </div>
+
+
+                <button class="calculate-button" onclick="calculateBand()">
+                    Calculate Overall Band
+                </button>
+
+
+                <div id="result" class="calculator-result">
+
+                    <p>Your Overall Band</p>
+
+                    <h2 id="overall-score">—</h2>
+
+                    <p id="result-message">
+                        Enter your scores above.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo">
+            IELTS<span>Boost</span>
+        </div>
+
+        <p>Free IELTS practice for ambitious students.</p>
+
+        <p>Created by <strong>Saidov Javohir</strong></p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
